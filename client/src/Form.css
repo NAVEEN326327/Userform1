@@ -1,0 +1,43 @@
+.container{
+    background-color: #f2f2f2;
+    
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ width: 35rem;
+ height: auto;
+ margin-left: 25%;
+ margin-top: 5%;
+ border-radius: 2% 2%;
+
+}
+
+input{
+   border-style: none;  
+   height: 50px;
+   width: 300px;   
+   margin-right: 1rem;
+   padding-left: 1rem;
+   border-radius: 5px 5px;
+}
+
+.name{
+    margin-top: 1rem;
+}
+
+.otp{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 180px;
+}
+
+span{
+    margin-right: 1rem;
+}
+
+.errormsg{
+    color: red;
+}
